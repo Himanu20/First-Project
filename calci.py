@@ -2,7 +2,7 @@
 
 # This function adds two numbers
 def add(x, y):
-    return x + y
+    return x + z
 
 # This function subtracts two numbers
 def subtract(x, y):
@@ -39,7 +39,7 @@ while True:
             print(num1, "-", num2, "=", subtract(num1, num2))
 
         elif choice == '3':
-            print(num1, "*", num2, "=", multiply(num1, num2))
+            print(num1, "*", num2, "=", multiply(num1, num))
 
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
